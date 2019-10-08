@@ -27,8 +27,29 @@
 * *1 hour* Background reading and collecting related papers
 * *2 hours* Writing plan for abstract of dissertation / fleshing out the specification of the project
 
+## Week 2
 
 ## 30 September 2019
 
 * *3 hours* Background reading
-* *2 hour*  Writing Prject abstract/dissertation
+* *2 hour*  Writing Project specification
+
+## 1st October 2019
+
+* *1 hour*  Redrafting project specification to have more concrete approach
+* *4 Hours* Background Reading on current methods of optimising parallel programs and how they compare to lift's rewrite rule system (steuwer16beyondAutoTuning)
+
+## 2nd October 2019
+
+* *1.5 hours* Background Reading
+
+## Week 3
+
+## 08 October 2019
+
+* *2.5 hours* Background reading (steuwer2015thesis)
+
+## 09 October 2019
+
+* *2 hours* Background reading (ElevateDresdenSeptember2019)
+
