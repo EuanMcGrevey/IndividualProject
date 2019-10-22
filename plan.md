@@ -13,7 +13,12 @@ Week-by-week plan for the whole project.
 * **Week 2**
 * **Week 3**
 * **Week 4**
+ - Write first bit of Lift, looking at nearest neighbour image upscaling
+ - Look at Halide for inspiration steps in pipeline I can look to implement as well
+
 * **Week 5**
+ - Rewrite naive nearest neigbour implementation to use Lift primitives
+
 * **Week 6**
 * **Week 7**
 * **Week 8**
