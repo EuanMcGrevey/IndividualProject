@@ -79,3 +79,10 @@
 * *2 hours* Learning more Scala and writing naive nearest neighbour image upscaling
 * *1 hour* Supervisor meeting
 
+## 28 October 2019
+
+* *1 hour* Beginning rewriting naive nearest neighour to use lift primitives 
+
+## Week 6
+
+* *2 hours* Rewriting naive nearest neighbour, using tests to check correctness
