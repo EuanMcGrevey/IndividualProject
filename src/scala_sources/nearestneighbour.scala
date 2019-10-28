@@ -5,9 +5,7 @@ import scala.math.round
 def nearestNeighbour(w: Int, h: Int, in: Array[Array[Int]], outw: Int, outh: Int): Array[Array[Int]] = {
 
   val scalX: Float = outw.toFloat / (w)
-  val scalY: Float = outy.toFloat / (h)
-
-  // need to scale the input image 
+  val scalY: Float = outy.toFloat / (h) 
 
   // initialise output image
   val outImage Array.ofDim[Int](outw)(outh)
