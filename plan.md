@@ -20,7 +20,7 @@ Week-by-week plan for the whole project.
  - Rewrite naive nearest neigbour implementation to use Lift primitives
 
 * **Week 6**
- - Continue rewriting naive nearest neighbour to use 
+ - As unable to write naive NN functionally, write much simpler version of algorithm in raw scala without Lift primitives.
  - Looking to the future, have a look at how Tomas (PHD student) has used Elevate to encode the application of rewrite rules for image blurring
  - Have another look at other image processing pipelines to write next
 
