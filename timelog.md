@@ -94,3 +94,7 @@
 * *2 hours* Learning more Scala
 * *2 hours* Planing out strategy for parallelisation for nearest neighbour interpolation
 * *1 hour* Supervisor meeting
+
+## 02 November 2019
+
+* *2 hours* Rewriting nearest neighbour in raw scala
