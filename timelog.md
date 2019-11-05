@@ -98,3 +98,8 @@
 ## 02 November 2019
 
 * *2 hours* Rewriting nearest neighbour in raw scala
+
+## Week 7
+
+* *1 hour* Writing helper functions to help debugging/printing
+* *2 hours* Rewriting nearest neighbour in raw scala - complete 
