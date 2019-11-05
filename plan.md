@@ -25,6 +25,9 @@ Week-by-week plan for the whole project.
  - Have another look at other image processing pipelines to write next
 
 * **Week 7**
+ - Rewrite NN upscale to use lift primitives, will need padClamp to replace our generator function
+ - Investigate and play around with the different code generators for NN upscale (C, openCL, openMP) and the different primitives necessary
+
 * **Week 8**
 * **Week 9**
 * **Week 10**
