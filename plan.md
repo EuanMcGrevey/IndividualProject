@@ -29,6 +29,8 @@ Week-by-week plan for the whole project.
  - Investigate and play around with the different code generators for NN upscale (C, openCL, openMP) and the different primitives necessary
 
 * **Week 8**
+ - Draw diagrams to aid with the understanding of rewrite rules, similar to drawings of array manipulation necessary to do simple upscale
+
 * **Week 9**
 * **Week 10**
 * **Week 11 [PROJECT WEEK]**

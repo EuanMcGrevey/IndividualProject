@@ -101,5 +101,15 @@
 
 ## Week 7
 
+## 05 November 2019
+
 * *1 hour* Writing helper functions to help debugging/printing
 * *2 hours* Rewriting nearest neighbour in raw scala - complete 
+* *1 hour* Supervisor meeting
+
+## Week 8 
+
+## 12 November 2019
+
+* *4 hours* Writing upscale to use lift primitives, unfinished
+* *1 hour* Supervisor meeting
