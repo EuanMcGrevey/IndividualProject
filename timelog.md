@@ -113,3 +113,11 @@
 
 * *4 hours* Writing upscale to use lift primitives, unfinished
 * *1 hour* Supervisor meeting
+
+## 18 November 2019
+
+* *1 hour* Analysing base components that make up the `base` rewrite strategy for separableConvolution2D, preparation for drawing diagrams.
+
+## Week 9
+
+## 19 November 2019
