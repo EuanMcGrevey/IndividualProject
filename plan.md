@@ -32,9 +32,16 @@ Week-by-week plan for the whole project.
  - Draw diagrams to aid with the understanding of rewrite rules, similar to drawings of array manipulation necessary to do simple upscale
 
 * **Week 9**
+ - Taken off to give more time to coursework
+
 * **Week 10**
+ - Write very simple rewrite rule converter which takes 1 rule and 1 goal rule and tries to apply a function to turn input rule into output.
+ - Stretch goal: Build upon previous step and look at chaining multiple transformations together, and begin looking at more complex rewrite rules.
+
 * **Week 11 [PROJECT WEEK]**
-* **Week 12 [PROJECT WEEK]** Status report submitted.
+* **Week 12 [PROJECT WEEK]** 
+
+ - Status report submitted.
 
 ## Winter break
 
