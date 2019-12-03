@@ -121,3 +121,17 @@
 ## Week 9
 
 ## 19 November 2019
+
+* *4 hours* Drew diagrams to aid my understanding of how Lift strategies are applied to actual applications, using separableConvolution2D as an example.
+* *1 hour* Supervisor meeting
+
+## Week 10
+
+Took off to focus on coursework
+
+## Week 11
+
+## 3 December 2019
+
+* *1 hour* Last supervisor meeting of term
+
