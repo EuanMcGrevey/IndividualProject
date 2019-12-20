@@ -3,8 +3,8 @@
 \usepackage{times}
     \usepackage{fullpage}
     
-    \title{ {{cookiecutter.project_title}}
-    \author{ {{cookiecutter.student_name}} - {{cookiecutter.student_id}} }
+    \title{Exploring the Application of Rewrite rules in Lift optimised for Image processing}
+    \author{Euan McGrevey 2255355m}
 
     \begin{document}
     \maketitle
@@ -12,57 +12,87 @@
     
      
 
-\section{Status report}
 
-\subsection{Proposal}\label{proposal}
 
-\subsubsection{Motivation}\label{motivation}
+\section{Proposal}\label{proposal}
 
-\emph{{[}Clearly motivate the purpose of your project; why someone would
-care about what you are doing{]}}
+\subsection{Motivation}\label{motivation}
 
-\subsubsection{Aims}\label{aims}
+Compilers offer the opportunity to ease the burden on the programmer, specifically when it comes to optimising code for multi-core architectures and specialised hardware like GPUs. Currently this is done through low-level, ad hoc and unstructured programming models such as OpenCL. Lift looks at automating this process by providing the programmer with basic high-level interface with which to write code, and a behind the scenes system of rewrite rules which in some way encode specific hardware optimisation, and transform this high level code into optimised machine code for different architectures. This would ideally aid the key challenges of programming parallel systems: performance portability and programmability.
 
-\emph{{[}Clearly state what the project is intended to do. This should
-be something which is measurable; it should be possible to tell if you
-succeeded{]}}
+\subsection{Aims}\label{aims}
 
-\subsection{Progress}\label{progress}
+This project aims to explore how we can encode optimisations for image processing applications  / pipelines using Lift rewrite rules.
+It also aims to add some simple functions to the language that determine whether a given expression can be transformed into another given expression, provided it is given a restricted set of rules to use.
+We can verify the effectiveness of the project experimentally.
 
-\emph{{[}Briefly state your progress so far, as a bulleted list{]}}
+\section{Progress}\label{progress}
 
-\subsection{Problems and risks}\label{problems-and-risks}
-
-\subsubsection{Problems}\label{problems}
-
-\emph{{[}What problems have you had so far, that have held up the
-project?{]}}
-
-\subsubsection{Risks}\label{risks}
-
-\emph{{[}What problems do you foresee in the future and how will you
-mitigate them?{]}}
-
-\subsection{Plan}\label{plan}
-
-\emph{{[}Time plan, in roughly weekly to monthly blocks, up until
-submission week{]}}
-
-    
-\subsection{Ethics and data}\label{ethics}
-\emph{Specify what ethical approval you need to do your evaluation and how you are approaching it. This is mandatory. 
-Specify what data you expect to collect in your evaluation. Explain how this data will help you evaluate your project.
-}
-
-Options for ethics:
-\item This project does not involve human subjects or data. No approval required.
-\item I have verified that the ethics checklist will apply to any evaluation I need to do. I will sign and complete the checklist.
-\item I have sought ethical guidance from the School's ethics convener and I will:
 \begin{itemize}
-    \item Proceed under specific instructions from the Ethics convener (e.g. modified checklist).
-    \item Apply for College Ethics Board approval.
-    \item Other procedure (give details)
-\end{itemize}    
+    \tightlist
+\item  Language and GUI framework chosen: project will be implemented in Lift, which is a DSL built using Scala, using IntelliJ Idea for development.
+\item  Background research conducted on motivations for addressing the challenges of parallel programming and related work (specifically Halide).
+\item  Very basic version of goal function that only works for rules which transform into the goal expression in a single step.
+\end{itemize}
 
+\section{Problems and risks}\label{problems-and-risks}
+
+\subsection{Problems}\label{problems}
+
+The following issues were encountered in the project so far.
+\begin{itemize}
+    \tightlist
+\item As Lift is an ongoing research project, there is very little documentation and is much harder than anticipated to get to grips with. Furthermore, it is impossible to search for online help.
+\item Lots of different application areas to choose from, however a lot of the simpler ones such as convolutions have already been looked at, leads to changing the direction of the project.
+\item Where a rewrite rule is applied in an expression also has to be specified, which complicates the problem, as we now have to traverse expressions in some way and decide when/how many times to apply a rule.
+\end{itemize}
+
+\subsection{Risks}\label{risks}
+
+\begin{itemize}
+\tightlist
+\item  Many different image processing applications to explore. \textbf{Mitigation}: will narrow down to one or two areas by the start of next semester.
+\item Unclear how to make non-trivial implementation that can be discussed for the purposes of the dissertation \textbf{Mitigation}: will make expression transformer features modular and build on top of one another to make more complex transformers, so that even if I hit a road block there is still some implementation to evaluate, even if simpler than originally desired.
+\end{itemize}
+    
+\section{Plan}\label{plan}
+
+\subsection{Semester 2}
+
+\begin{itemize}
+    \tightlist
+    \item
+      Week 1: Develop simple transformer that can apply multiple rules in a strict order to transform between two expressions. \textbf{Deliverable:}
+      function that outputs whether it is possible to transform one expression into the other using the strict ordering of the rules.
+    \item
+      Week 2-3: Implement more complex backtracking function that can take an arbitrary set of rules, beginning and goal expressions, with no regard to time complexity. 
+      \textbf{Deliverable:}
+      function that can decide if you can transform one arbitrary expression into another by traversing the given expression and applying at any place before recursing. 
+    \item
+      Week 4-5: Smarter backtracking approach to make use of knowledge of structure of expressions to gain time efficiency. 
+      \textbf{Deliverable:} 
+      A Refined backtracking algorithm and tests that demonstrate a speedup when deciding if two expressions are transformable.
+    \item
+      Week 6: Research on how to best evaluate performance of final system.
+      \textbf{Deliverable:} 
+      detailed evaluation and analysis plan.
+    \item
+      Week 7-9: Final implementation.
+      \textbf{Deliverable:}
+      Software builds without error and passes acceptance tests to ensure ready for evaluation stage.
+    \item
+      Week 9: Evaluation experiments run. 
+      \textbf{Deliverable:}
+      quantitative measures of time taken to decide on whether expressions can be transformed into another and how to do so.
+    \item
+      Week 8-10: Dissertation write up.
+      \textbf{Deliverable:}
+      first draft submitted to supervisor two weeks before final deadline.
+    \end{itemize}
+    
+
+\section{Ethics}
+
+This project will not involve tests with human users.  Experimental measurements such as performance measurements may be taken from code run on machines. 
 
 \end{document}
