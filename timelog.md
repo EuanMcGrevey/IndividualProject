@@ -133,5 +133,26 @@ Took off to focus on coursework
 
 ## 3 December 2019
 
-* *1 hour* Last supervisor meeting of term
+* *1 hour* Supervisor meeting, taking week off to study for exam
+* *2 hours* Tried to write basic expression transformer
+
+## Week 12
+
+## 16 December 2019
+
+* *0.5 hours* Forked Repository in order to modify and commit code
+* *0.5 hours* Typed up meeting notes up to date
+* *2.5 hours* Writing basic expression transformer
+
+## 17 December 2019
+
+* *4 hours* Writing basic expression transformer, gaining better understanding of how strategies are applied, and necessity for more sophisticated traversal of expression AST to apply rules.
+* *1 hour* Final Supervisor meeting of term
+
+
+## Week 13
+
+## 10 January 2020
+
+* *1 hour* Created provisional plan for second semester
 

@@ -48,14 +48,56 @@ Week-by-week plan for the whole project.
 ## Spring Semester
 
 * **Week 13**
+
+ - Develop simple transformer that can apply multiple rules in a strict order to transform between two expressions
+ - Deliverable: Function that outputs whether it is possible to transform from one expression into the other using the strict ordering of the rules
+
 * **Week 14**
+
+ - Implement more complex backtracking function that can take an arbitrary set of rules, beginning and goal expressions, disregarding time complexity
+ - Deliverable: Function that can decide if you can transform one arbitrary expression into another by traversing the AST of the given expression and applying at any applicable place before recursing
+ 
 * **Week 15**
+
+ - Same as Week 14, adapt if finished earlier
+
 * **Week 16**
+
+ - Smarter backtracking approach to cut down on time taken to return when given input is medium/large
+ - Deliverable: A refined backtracking algorithm and some basic tests that demonstrate a speedup
+
 * **Week 17**
+
+ - Same as Week 16, adapt if finished earlier
+
 * **Week 19**
+
+ - Research on how to best evaluate the effectiveness of the final system
+ - Write Dissertation shell
+ - Deliverable: Detailed evaluation and analysis plan
+
 * **Week 20**
+
+ - Final Implementation
+ - Continue writing dissertation
+ - Deliverable: Software that builds without error and passes acceptance tests to ensure ready for evaluation stage
+
 * **Week 21**
+
+ - Same as Week 20, adapt if problems
+
 * **Week 22**
+
+ - Same as Week 20
+ - Evaluation experiments run
+ - Deliverable: Quantative measures of the time taken to run key functions on several kinds of inputs, and correctness of such results.
+ - Deadline to submit first draft of dissertation to supervisor for feedback
+
 * **Week 23 [TERM ENDS]**
-* **Week 24** Dissertation submission deadline and presentations.
+
+ - Minimal work on actual project, shouldn't be touched after this week.
+
+* **Week 24** 
+
+ - Dissertation submission deadline and presentations.
 
