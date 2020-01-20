@@ -156,3 +156,19 @@ Took off to focus on coursework
 
 * *1 hour* Created provisional plan for second semester
 
+## 13 January 2020
+
+* *0.5 hours* Added supervisor provided code to repo, build errors, will look at tomorrow.
+
+## 14 January 2020
+
+* *2 hours* Worked on function that tries to decide whether a given rule can be applied at any point in a given expression.
+* *1.5 hours* Continued trying to add supervisor's code to the project
+* *1 hour* Supervisor meeting
+
+## Week 14
+
+## 20 January 2020
+
+* *1 hour* Writing up project notes
+* *1 hour* Setting up new scala project as per meeting 14
