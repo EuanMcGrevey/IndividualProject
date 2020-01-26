@@ -172,3 +172,12 @@ Took off to focus on coursework
 
 * *1 hour* Writing up project notes
 * *1 hour* Setting up new scala project as per meeting 14
+
+## 26 January 2020
+
+* *1.5 hours* Created Tree and RewriteResult traits
+* *1,5 hours* Added type definition of Strategy and test rule. Tested rule application was successful.
+
+## Week 15
+
+
