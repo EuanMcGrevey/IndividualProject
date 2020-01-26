@@ -54,12 +54,14 @@ Week-by-week plan for the whole project.
 
 * **Week 14**
 
- - Implement more complex backtracking function that can take an arbitrary set of rules, beginning and goal expressions, disregarding time complexity
- - Deliverable: Function that can decide if you can transform one arbitrary expression into another by traversing the AST of the given expression and applying at any applicable place before recursing
- 
+ - Stop using Rise for now, develop Scala-only tree backtracking algorithm that has a similar structure to Rise (that is, keep RewriteResults and Rule application). 
+ - Deliverable: Have project set up and running a simple rule application on a single node without any traversal.
+
 * **Week 15**
 
- - Same as Week 14, adapt if finished earlier
+ - Add traversal methods to the tree class that we can use when trying to apply rules. At this point it shouldn't be too disimilar to AST traversal in Rise.
+ - Add some tests that demonstrates we can do rule application that uses Breadth-first/Depth-first search and simple backtracking.
+ - Deliverable: Working backtracking / other traversals that pass tests and set of new rules that can utilize these new traversals.
 
 * **Week 16**
 
@@ -95,7 +97,7 @@ Week-by-week plan for the whole project.
 
 * **Week 23 [TERM ENDS]**
 
- - Minimal work on actual project, shouldn't be touched after this week.
+ - Minimal work on actual project, shouldn't be touched after this week. Focus on dissertation.
 
 * **Week 24** 
 
