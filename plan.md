@@ -65,8 +65,11 @@ Week-by-week plan for the whole project.
 
 * **Week 16**
 
- - Smarter backtracking approach to cut down on time taken to return when given input is medium/large
- - Deliverable: A refined backtracking algorithm and some basic tests that demonstrate a speedup
+ - Build on earlier written applyEverywhere and applyOnce functions to build a function applyOnceNTimes that gives all possible results of applying a rule once in every possible location of a tree.
+ - Write another function simpleTransform that takes a set a rules now rather than a single one, and tries to decide whether some simple trees can be transformed into one another. Start with something barely non-trivial such as two rules, one of which can never be applied, and the other rule needs to be applied twice to achieve the desired result.
+
+ - Keep in mind that the end goal is to develop a function that can take an arbitrary set of rules, a start and goal expression, and if it is possible, return the sequence of rule applications and locations that turn the start into goal.
+ - Deliverable: The desired functions.
 
 * **Week 17**
 

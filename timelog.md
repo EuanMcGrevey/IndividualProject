@@ -180,4 +180,16 @@ Took off to focus on coursework
 
 ## Week 15
 
+## 28 January 2020
+
+* *1 hour* Set up new Rise repository on local machine
+* *1 hour* Supervisor Meeting
+* *2 hours* Writing ApplyEverywhere method for strategies
+
+## 01 February 2020
+
+* *2 hours* Writing Abstract and Introduction of dissertation
+
+## 02 February 2020
+
 
