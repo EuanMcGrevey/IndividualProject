@@ -192,4 +192,31 @@ Took off to focus on coursework
 
 ## 02 February 2020
 
+* *1 hour* Writing applyOnce method for strategy application
 
+## Week 16
+
+## 03 February 2020
+
+* *1 hour* Supervisor Meeting
+* *2 hours* fixing issues with applyOnce method
+* *1 hour* Writing applyOnceNTimes method
+
+## 08 February 2020
+
+* *2 hours* Writing applyOnceNTimes method; more difficult than anticipated, tried different approach
+
+## 09 February 2020
+
+* *0.5 hours* wrote applyOnceNTimes method, without regard to efficiency - has bugs, only works for simple cases
+
+## Week 17 
+
+## 10 February 2020 
+
+* *3 hours* Debugging applyOnceNTimes method
+* *1 hour* Supervisor meeting
+
+## 16 February 2020
+
+* *0.5 hours* Cleaning up code from supervisor meeting so that project builds

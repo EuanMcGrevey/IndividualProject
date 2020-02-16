@@ -73,7 +73,9 @@ Week-by-week plan for the whole project.
 
 * **Week 17**
 
- - Same as Week 16, adapt if finished earlier
+ - Keep working towards universal expression translator as described above
+ - Do so by starting work on a expression transformer that can take 2 rules and two expressions, and decides whether or not the rules can take you from one to the other.
+ - More complicated: Change the return value of the function to show which rules at which point in the expression do the job
 
 * **Week 19**
 
