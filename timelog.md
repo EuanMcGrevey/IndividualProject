@@ -220,3 +220,24 @@ Took off to focus on coursework
 ## 16 February 2020
 
 * *0.5 hours* Cleaning up code from supervisor meeting so that project builds
+
+
+## Omitted are days 17 February to 28 March - Hard Disk Failure
+
+## Week 23
+
+## 28 March 2020
+
+* *5 hours* Sections 3 written. Section 4 + 5 started
+
+## 29 March 2020
+
+* *2 hours* Section 5 dissertation
+* *3 hours* Developing dot file generation for purposes of section 6 Evaluation
+
+## Week 24
+
+## 30 March 2020
+
+* *1 hour* Supervisor Meeting
+* *3 hours* Writing section 5 of dissertation
