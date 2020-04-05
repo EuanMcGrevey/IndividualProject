@@ -44,3 +44,168 @@
   year={1968},
   publisher={Harcourt, Brace, Javanovich}
 }
+
+
+
+
+
+
+
+
+
+
+@article{steuwer_improving_nodate,
+	title = {Improving Programmability and Performance Portability on Many-Core Processors},
+	pages = {277},
+	author = {Steuwer and others},
+	date = {2015},
+	langid = {german},
+	file = {Steuwer - Improving Programmability and Performance Portabil.pdf:C\:\\Users\\euanm\\Zotero\\storage\\Q7NYB2E6\\Steuwer - Improving Programmability and Performance Portabil.pdf:application/pdf}
+}
+
+
+
+
+@article{atkey_strategy_2017,
+	title = {Strategy Preserving Compilation for Parallel Functional Code},
+	url = {http://arxiv.org/abs/1710.08332},
+	abstract = {Graphics Processing Units ({GPUs}) and other parallel devices are widely available and have the potential for accelerating a wide class of algorithms. However, expert programming skills are required to achieving maximum performance. hese devices expose low-level hardware details through imperative programming interfaces where programmers explicity encode device-specific optimisation strategies. This inevitably results in non-performance-portable programs delivering suboptimal performance on other devices. Functional programming models have recently seen a renaissance in the systems community as they offer possible solutions for tackling the performance portability challenge. Recent work has shown how to automatically choose high-performance parallelisation strategies for a wide range of hardware architectures encoded in a functional representation. However, the translation of such functional representations to the imperative program expected by the hardware interface is typically performed ad hoc with no correctness guarantees and no guarantees to preserve the intended parallelisation strategy. In this paper, we present a formalised strategy-preserving translation from high-level functional code to low-level data race free parallel imperative code. This translation is formulated and proved correct within a language we call Data Parallel Idealised Algol ({DPIA}), a dialect of Reynolds' Idealised Algol. Performance results on {GPUs} and a multicore {CPU} show that the formalised translation process generates low-level code with performance on a par with code generated from ad hoc approaches.},
+	journaltitle = {{arXiv}:1710.08332 [cs]},
+	author = {Atkey, Robert and Steuwer, Michel and Lindley, Sam and Dubach, Christophe},
+	urldate = {2019-09-27},
+	date = {2017-10-23},
+	eprinttype = {arxiv},
+	eprint = {1710.08332},
+	keywords = {Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Programming Languages},
+	file = {arXiv\:1710.08332 PDF:C\:\\Users\\euanm\\Zotero\\storage\\HBA3EDUS\\Atkey et al. - 2017 - Strategy Preserving Compilation for Parallel Funct.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\euanm\\Zotero\\storage\\BSLNEDIY\\1710.html:text/html}
+}
+
+@inproceedings{pizzuti_position-dependent_2019,
+	location = {Berlin, Germany},
+	title = {Position-dependent arrays and their application for high performance code generation},
+	isbn = {978-1-4503-6814-8},
+	url = {http://dl.acm.org/citation.cfm?doid=3331553.3342614},
+	doi = {10.1145/3331553.3342614},
+	abstract = {Modern parallel hardware promises unprecedented performance, for the gifted few experts who can program it correctly. Code generators from high-level languages provide an attractive alternative, promising to deliver high performance automatically. Existing projects such as Accelerate, Futhark, Halide, or Lift show that this approach is feasible. Unfortunately, existing efforts focus on computations over tensors: regularly shaped higher dimensional arrays. This limits the expressiveness of these approaches and excludes many interesting data structures that are commonly encoded manually in memory, such as trees or triangular matrices.},
+	eventtitle = {the 8th {ACM} {SIGPLAN} International Workshop},
+	pages = {14--26},
+	booktitle = {Proceedings of the 8th {ACM} {SIGPLAN} International Workshop on Functional High-Performance and Numerical Computing  - {FHPNC} 2019},
+	publisher = {{ACM} Press},
+	author = {Pizzuti, Federico and Steuwer, Michel and Dubach, Christophe},
+	urldate = {2019-09-27},
+	date = {2019},
+	langid = {english},
+	file = {Pizzuti et al. - 2019 - Position-dependent arrays and their application fo.pdf:C\:\\Users\\euanm\\Zotero\\storage\\AAKWGS2F\\Pizzuti et al. - 2019 - Position-dependent arrays and their application fo.pdf:application/pdf}
+}
+
+@article{steuwer_patterns_2015,
+	title = {Patterns and Rewrite Rules for Systematic Code Generation (From High-Level Functional Patterns to High-Performance {OpenCL} Code)},
+	url = {http://arxiv.org/abs/1502.02389},
+	abstract = {Computing systems have become increasingly complex with the emergence of heterogeneous hardware combining multicore {CPUs} and {GPUs}. These parallel systems exhibit tremendous computational power at the cost of increased programming effort. This results in a tension between achieving performance and code portability. Code is either tuned using device-specific optimizations to achieve maximum performance or is written in a high-level language to achieve portability at the expense of performance. We propose a novel approach that offers high-level programming, code portability and high-performance. It is based on algorithmic pattern composition coupled with a powerful, yet simple, set of rewrite rules. This enables systematic transformation and optimization of a high-level program into a low-level hardware specific representation which leads to high performance code. We test our design in practice by describing a subset of the {OpenCL} programming model with low-level patterns and by implementing a compiler which generates high performance {OpenCL} code. Our experiments show that we can systematically derive high-performance device-specific implementations from simple high-level algorithmic expressions. The performance of the generated {OpenCL} code is on par with highly tuned implementations for multicore {CPUs} and {GPUs} written by experts},
+	journaltitle = {{arXiv}:1502.02389 [cs]},
+	author = {Steuwer, Michel and Fensch, Christian and Dubach, Christophe},
+	urldate = {2019-09-27},
+	date = {2015-02-09},
+	eprinttype = {arxiv},
+	eprint = {1502.02389},
+	keywords = {Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Programming Languages, Computer Science - Performance, D.3.3, D.3.4},
+	file = {arXiv\:1502.02389 PDF:C\:\\Users\\euanm\\Zotero\\storage\\V5ZZNJTD\\Steuwer et al. - 2015 - Patterns and Rewrite Rules for Systematic Code Gen.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\euanm\\Zotero\\storage\\73IDJVUV\\1502.html:text/html}
+}
+
+@article{cummins_autotuning_2015,
+	title = {Autotuning {OpenCL} Workgroup Size for Stencil Patterns},
+	url = {http://arxiv.org/abs/1511.02490},
+	abstract = {Selecting an appropriate workgroup size is critical for the performance of {OpenCL} kernels, and requires knowledge of the underlying hardware, the data being operated on, and the implementation of the kernel. This makes portable performance of {OpenCL} programs a challenging goal, since simple heuristics and statically chosen values fail to exploit the available performance. To address this, we propose the use of machine learning-enabled autotuning to automatically predict workgroup sizes for stencil patterns on {CPUs} and multi-{GPUs}. We present three methodologies for predicting workgroup sizes. The first, using classifiers to select the optimal workgroup size. The second and third proposed methodologies employ the novel use of regressors for performing classification by predicting the runtime of kernels and the relative performance of different workgroup sizes, respectively. We evaluate the effectiveness of each technique in an empirical study of 429 combinations of architecture, kernel, and dataset, comparing an average of 629 different workgroup sizes for each. We find that autotuning provides a median 3.79x speedup over the best possible fixed workgroup size, achieving 94\% of the maximum performance.},
+	journaltitle = {{arXiv}:1511.02490 [cs]},
+	author = {Cummins, Chris and Petoumenos, Pavlos and Steuwer, Michel and Leather, Hugh},
+	urldate = {2019-09-27},
+	date = {2015-11-08},
+	eprinttype = {arxiv},
+	eprint = {1511.02490},
+	keywords = {Computer Science - Distributed, Parallel, and Cluster Computing},
+	file = {arXiv\:1511.02490 PDF:C\:\\Users\\euanm\\Zotero\\storage\\H8UWVBF6\\Cummins et al. - 2015 - Autotuning OpenCL Workgroup Size for Stencil Patte.pdf:application/pdf;arXiv.org Snapshot:C\:\\Users\\euanm\\Zotero\\storage\\UWMJJIYI\\1511.html:text/html}
+}
+
+@inproceedings{steuwer_lift:_2017,
+	location = {Austin, {TX}, {USA}},
+	title = {{LIFT}: A functional data-parallel {IR} for high-performance {GPU} code generation},
+	isbn = {978-1-5090-4931-8},
+	url = {http://ieeexplore.ieee.org/document/7863730/},
+	doi = {10.1109/CGO.2017.7863730},
+	shorttitle = {{LIFT}},
+	abstract = {Parallel patterns (e.g., map, reduce) have gained traction as an abstraction for targeting parallel accelerators and are a promising answer to the performance portability problem. However, compiling high-level programs into eﬃcient lowlevel parallel code is challenging. Current approaches start from a high-level parallel {IR} and proceed to emit {GPU} code directly in one big step. Fixed strategies are used to optimize and map parallelism exploiting properties of a particular {GPU} generation leading to performance portability issues.},
+	eventtitle = {2017 {IEEE}/{ACM} International Symposium on Code Generation and Optimization ({CGO})},
+	pages = {74--85},
+	booktitle = {2017 {IEEE}/{ACM} International Symposium on Code Generation and Optimization ({CGO})},
+	publisher = {{IEEE}},
+	author = {Steuwer, Michel and Remmelg, Toomas and Dubach, Christophe},
+	urldate = {2019-09-27},
+	date = {2017-02},
+	langid = {english},
+	file = {Steuwer et al. - 2017 - LIFT A functional data-parallel IR for high-perfo.pdf:C\:\\Users\\euanm\\Zotero\\storage\\667SQI94\\Steuwer et al. - 2017 - LIFT A functional data-parallel IR for high-perfo.pdf:application/pdf}
+}
+
+@book{nixon_feature_2012,
+	title = {Feature Extraction and Image Processing for Computer Vision},
+	isbn = {978-0-12-396549-3},
+	abstract = {Feature Extraction and Image Processing for Computer Vision is an essential guide to the implementation of image processing and computer vision techniques, with tutorial introductions and sample code in Matlab. Algorithms are presented and fully explained to enable complete understanding of the methods and techniques demonstrated. As one reviewer noted, "The main strength of the proposed book is the exemplar code of the algorithms." Fully updated with the latest developments in feature extraction, including expanded tutorials and new techniques, this new edition contains extensive new material on Haar wavelets, Viola-Jones, bilateral filtering, {SURF}, {PCA}-{SIFT}, moving object detection and tracking, development of symmetry operators, {LBP} texture analysis, Adaboost, and a new appendix on color models. Coverage of distance measures, feature detectors, wavelets, level sets and texture tutorials has been extended. Named a 2012 Notable Computer Book for Computing Methodologies by Computing {ReviewsEssential} reading for engineers and students working in this cutting-edge {fieldIdeal} module text and background reference for courses in image processing and computer {visionThe} only currently available text to concentrate on feature extraction with working implementation and worked through derivation},
+	pagetotal = {629},
+	publisher = {Academic Press},
+	author = {Nixon, Mark and Aguado, Alberto S.},
+	date = {2012-10-09},
+	langid = {english},
+	keywords = {Computers / Image Processing, Computers / Intelligence ({AI}) \& Semantics}
+}
+
+@inproceedings{steuwer_matrix_2016,
+	location = {Pittsburgh, Pennsylvania},
+	title = {Matrix multiplication beyond auto-tuning: rewrite-based {GPU} code generation},
+	isbn = {978-1-4503-4482-1},
+	url = {http://dl.acm.org/citation.cfm?doid=2968455.2968521},
+	doi = {10.1145/2968455.2968521},
+	shorttitle = {Matrix multiplication beyond auto-tuning},
+	abstract = {Graphics Processing Units ({GPUs}) are used as general purpose parallel accelerators in a wide range of applications. They are found in most computing systems, and mobile devices are no exception. The recent availability of programming {APIs} such as {OpenCL} for mobile {GPUs} promises to open up new types of applications on these devices.},
+	eventtitle = {the International Conference},
+	pages = {1--10},
+	booktitle = {Proceedings of the International Conference on Compilers, Architectures and Synthesis for Embedded Systems - {CASES} '16},
+	publisher = {{ACM} Press},
+	author = {Steuwer, Michel and Remmelg, Toomas and Dubach, Christophe},
+	urldate = {2019-10-01},
+	date = {2016},
+	langid = {english},
+	file = {Steuwer et al. - 2016 - Matrix multiplication beyond auto-tuning rewrite-.pdf:C\:\\Users\\euanm\\Zotero\\storage\\5DDJY3SA\\Steuwer et al. - 2016 - Matrix multiplication beyond auto-tuning rewrite-.pdf:application/pdf}
+}
+
+@online{noauthor_image_nodate,
+	title = {Image Processing - Nearest Neighbour Interpolation {\textbar} {GIASSA}.{NET}},
+	url = {https://www.giassa.net/?page_id=207},
+	abstract = {A tutorial on nearest neighbour interpolation.},
+	urldate = {2019-10-15},
+	langid = {american},
+	file = {Snapshot:C\:\\Users\\euanm\\Zotero\\storage\\826CCI4X\\www.giassa.net.html:text/html}
+}
+
+@online{noauthor_level_nodate,
+	title = {Level 4 Project Dissertation},
+	url = {https://www.overleaf.com/project/5e334e4ed5de4e0001f95b88},
+	abstract = {An online {LaTeX} editor that's easy to use. No installation, real-time collaboration, version control, hundreds of {LaTeX} templates, and more.},
+	urldate = {2020-03-12},
+	langid = {english},
+	file = {Snapshot:C\:\\Users\\euanm\\Zotero\\storage\\Q82SECCZ\\5e334e4ed5de4e0001f95b88.html:text/html}
+}
+
+@misc{Halide_Website,
+	title = {Halide Website},
+	url = {https://halide-lang.org/},
+	urldate = {2020-03-12},
+	file = {Halide:C\:\\Users\\euanm\\Zotero\\storage\\KAWITGE4\\halide-lang.org.html:text/html}
+}
+
+@article{steuwer_generating_icfp,
+	title = {Generating Performance Portable Code using Rewrite Rules},
+	pages = {42},
+	author = {Steuwer, Michel and Fensch, Christian and Lindley, Sam and Dubach, Christophe},
+	langid = {english},
+	date = {2015},
+	file = {Steuwer et al. - Generating Performance Portable Code using Rewrite.pdf:C\:\\Users\\euanm\\Zotero\\storage\\TMMH3Z6K\\Steuwer et al. - Generating Performance Portable Code using Rewrite.pdf:application/pdf}
+}
